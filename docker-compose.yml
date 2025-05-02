@@ -1,0 +1,9 @@
+services:
+  nuxt:
+    build:
+      context: .
+      args:
+        API_ENDPOINT: http://localhost:3000
+    ports:
+      - "3000:3000"
+      

@@ -1,0 +1,60 @@
+{
+  "home": {
+    "meta": {
+      "title": "Bienvenido"
+    },
+    "title": "Reduce tu factura de luz a 0€ y ahorra más que nunca.",
+    "subtitle": "Instálate placas solares y maximiza tu ahorro con una batería.",
+    "form": {
+      "title": "¿Quieres saber más?",
+      "subtitle": "Comprueba tu número CUPS y descubre si tienes un descuento en la instalación de placas solares",
+      "button": "¡Quiero un descuento!"
+    }
+  },
+  "client": {
+    "meta": {
+      "title": "Cliente"
+    },
+    "data": {
+      "welcomeMessage": "Bienvenido a la revolución,",
+      "supplyPointHeader": "Tu punto de suministro",
+      "address": "Dirección",
+      "cups": "CUPS",
+      "tariff": "Tarifa",
+      "contractedPower": "Potencia contratada",
+      "p1": "P1",
+      "p2": "P2"
+    },
+    "clientNotOffer": {
+      "apology": "Lo sentimos, {name}.",
+      "offerHousesOnly": "Esta oferta sólo está disponible para casas.",
+      "advantageNoNeighbors": "No todo iban a ser ventajas no tener vecinos. Esta oferta es para comunidades.",
+      "noOffer": "No tenemos una oferta para ti."
+    },
+    "discountOffer": {
+      "hasDiscountWithPercentage": "¡Enhorabuena! Puedes disfrutar del",
+      "percentage": "de un {percentage}%",
+      "hasDiscount": "¡Enhorabuena! Puedes disfrutar de",
+      "stepAway": "Estás a un breve paso de reducir tu factura de la luz. ¡No te lo pienses más!",
+      "requestDiscount": "¡Pide tu descuento ya!",
+      "STANDARD": "oferta estándar",
+      "BASIC": "descuento básico",
+      "SPECIAL": "descuento especial"
+    },
+    "notFoundCups": "CUPS no encontrado"
+  },
+  "thanks": {
+    "title": "¡Gracias por confiar en nosotros!",
+    "subtitle": "En breve nos pondremos en contacto contigo para ofrecerte tu descuento personalizado."
+  },
+  "social": {
+    "hashtag": "#LaRevoluciónDeLosTejados"
+  },
+  "common": {
+    "cups": "Número CUPS"
+  },
+  "validations": {
+    "required": "Campo requerido",
+    "cups": "CUPS inválido"
+  }
+}

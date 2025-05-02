@@ -1,0 +1,31 @@
+@import "tailwindcss" theme(static);
+@plugin "@tailwindcss/typography";
+@import "@nuxt/ui";
+
+@theme static {
+  --font-sans: Helvetica, sans-serif;
+  --font-display: 'Inter', sans-serif;
+  --ui-container: var(--container-4xl);
+
+  --text-color-default: var(--ui-text-highlighted);
+
+  --color-holaluz-primary-400: #e5007e;
+  --color-holaluz-primary-500: #e5007e;
+  --color-holaluz-primary-600: #e5007e;
+  --color-holaluz-primary-700: #e5007e;
+  --color-holaluz-primary-800: #e5007e;
+  --color-holaluz-primary-900: #e5007e;
+  --color-holaluz-secondary-400: #f06b18;
+  --color-holaluz-secondary-500: #f06b18;
+  --color-holaluz-secondary-600: #f06b18;
+  --color-holaluz-secondary-700: #f06b18;
+  --color-holaluz-secondary-800: #f06b18;
+  --color-holaluz-secondary-900: #f06b18;
+  --color-holaluz-tertiary-400: #ffc621;
+  --color-holaluz-tertiary-500: #ffc621;
+  --color-holaluz-tertiary-600: #ffc621;
+  --color-holaluz-tertiary-700: #ffc621;
+  --color-holaluz-tertiary-800: #ffc621;
+  --color-holaluz-tertiary-900: #ffc621;
+}
+

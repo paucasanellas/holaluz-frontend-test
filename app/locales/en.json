@@ -1,0 +1,60 @@
+{
+  "home": {
+    "meta": {
+      "title": "Welcome"
+    },
+    "title": "Reduce your electricity bill to 0€ and save more than ever.",
+    "subtitle": "Install solar panels and maximize your savings with a battery.",
+    "form": {
+      "title": "Want to know more?",
+      "subtitle": "Check your CUPS number and find out if you have a discount on the installation of solar panels",
+      "button": "I want a discount!"
+    }
+  },
+  "client": {
+    "meta": {
+      "title": "Client"
+    },
+    "data": {
+      "welcomeMessage": "Welcome to the revolution,",
+      "supplyPointHeader": "Your supply point",
+      "address": "Address",
+      "cups": "CUPS",
+      "tariff": "Tariff",
+      "contractedPower": "Contracted Power",
+      "p1": "P1",
+      "p2": "P2"
+    },
+    "clientNotOffer": {
+      "apology": "We are sorry, {name}.",
+      "offerHousesOnly": "This offer is only available for houses.",
+      "advantageNoNeighbors": "Not having neighbors wasn't all advantages. This offer is for communities.",
+      "noOffer": "We don't have an offer for you."
+    },
+    "discountOffer": {
+      "hasDiscountWithPercentage": "Congratulations! You can enjoy of",
+      "percentage": "of a {percentage}%",
+      "hasDiscount": "Congratulations! You can enjoy",
+      "stepAway": "You are just one step away from reducing your electricity bill. Don't think twice!",
+      "requestDiscount": "Request your discount now!",
+      "STANDARD": "standard offer",
+      "BASIC": "basic discount",
+      "SPECIAL": "special discount"
+    },
+    "notFoundCups": "CUPS not found"
+  },
+  "thanks": {
+    "title": "Thank you for trusting us!",
+    "subtitle": "We will contact you shortly to offer you your personalized discount."
+  },
+  "social": {
+    "hashtag": "#TheRoofRevolution"
+  },
+  "common": {
+    "cups": "CUPS Number"
+  },
+  "validations": {
+    "required": "Field required",
+    "cups": "Invalid CUPS"
+  }
+}
