@@ -1,7 +1,14 @@
 import { defineConfig } from '@playwright/test'
+import { defineBddConfig } from 'playwright-bdd'
+
+const testDir = defineBddConfig({
+  features: 'tests/e2e/features/**/*.feature',
+  steps: 'tests/e2e/steps/**/*.step.ts',
+  outputDir: 'tests/e2e/.output',
+})
 
 export default defineConfig({
-  testDir: './tests',
+  testDir,
   outputDir: './tests/e2e/reports',
   use: {
     locale: 'es-ES',
