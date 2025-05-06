@@ -10,7 +10,7 @@ export default defineNuxtConfig({
     { path: '@/components', pathPrefix: false },
   ],
   devtools: {
-    enabled: true,
+    enabled: import.meta.env.NUXT_DEVTOOLS || false,
     timeline: {
       enabled: true,
     },

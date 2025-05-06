@@ -4,6 +4,7 @@
     :schema="schema"
     :state="state"
     class="space-y-4"
+    aria-label="ClientFinderByCups"
     @submit="findClientByCups"
   >
     <UFormField
